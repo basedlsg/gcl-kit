@@ -1,0 +1,36 @@
+{
+  "name": "gcl-kit",
+  "version": "0.1.0",
+  "description": "Free CLI tools from Game Changer Labs — a production design system, a cold-outreach playbook, and great website build prompts. Built for developers and AI agents; works offline with zero dependencies.",
+  "type": "module",
+  "bin": {
+    "gcl-kit": "./gcl.mjs",
+    "gcl": "./gcl.mjs",
+    "gcl-design": "./gcl-design.mjs",
+    "gcl-outreach": "./gcl-outreach.mjs",
+    "gcl-prompts": "./gcl-prompts.mjs"
+  },
+  "files": [
+    "gcl.mjs",
+    "gcl-design.mjs",
+    "gcl-outreach.mjs",
+    "gcl-prompts.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "cold-outreach",
+    "prompt-engineering",
+    "website-prompts",
+    "ai-agents",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "Game Changer Labs (https://gamechangerlabs.io)",
+  "license": "MIT",
+  "homepage": "https://gamechangerlabs.io",
+  "engines": {
+    "node": ">=18"
+  }
+}
